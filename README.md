@@ -22,7 +22,8 @@ Done.
 
 ### Usage
 #### Analysing ecg .xml files
-Below follows an example of how to read xml files from a folder and merge them to a dataframe, which if necessary can be exported to a .csv or .xslx file.  
+Below follows an example of how to read xml files from a folder and merge them to a dataframe, which if necessary can be exported to a .csv or .xslx file.
+
 Load the package.
 ```r
 require("dukeR")
