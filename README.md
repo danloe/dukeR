@@ -1,3 +1,4 @@
+
 # dukeR
 Tools for analysing Duke University Hospital data.
 
@@ -13,7 +14,6 @@ If not installed, install `devtools` package.
 ```r
 install.packages("devtools")
 ```
-
 Continue on to install `dukeR`
 ```r
 devtools::install_github("danloe/dukeR")
@@ -23,7 +23,10 @@ Done.
 ### Usage
 #### Analysing ecg .xml files
 Below follows an example of how to read xml files from a folder and merge them to a dataframe, which if necessary can be exported to a .csv or .xslx file.
-
+Load the package.
+```r
+require("dukeR")
+```
 Create a variable holding paths to the xml files.
 ```r
 xml_files <- list.files("./your_xml_folder", full.names = TRUE)
