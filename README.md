@@ -45,12 +45,12 @@ You now have a dataframe (or rather a data.table) suitable for analysis, however
 - Supra ventricular tachycardia (SVT), 
 - Junctional rhythm, 
 - Left bundle branch block (LBBB), 
-- right bundle branch block (RBBB), 
+- Right bundle branch block (RBBB), 
 - RBBB + left anterior fascicular block (LAFB), 
 - RBBB + left posterior fascicular block (LPFB), 
-- atrial fibrillation (AFIB), 
-- pacemaker rhythm (PACE), 
-- wolf parkinson white (WPW).
+- Atrial fibrillation (AFIB), 
+- Pacemaker rhythm (PACE), 
+- Wolff-Parkinson-White (WPW).
 ```r
 ecg_classified <- dr_classify_ecg(ecg_data)
 ```
