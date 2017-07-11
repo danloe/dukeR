@@ -1,0 +1,17 @@
+Package: dukeR
+Type: Package
+Title: Tools for analysing data from Duke University Hospital
+Version: 0.1.0
+Authors@R: person("Daniel", "Loewenstein", email = "loewenstein.daniel@gmail.com", role = c("aut", "cre"))
+Description: The idea behind this package is to gather data analysis tools created
+    specifically to analyze data from Duke University Hospital. This means that the
+    tools included in this package might not have any real use outside of Duke.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: xml2,
+    stringr,
+    magrittr,
+    data.table,
+    dplyr
