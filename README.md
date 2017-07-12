@@ -1,14 +1,15 @@
 
-# dukeR
+dukeR
+=====
 Tools for analysing Duke University Hospital data.
 
-### Description
+## Description
 The idea behind this package is to gather data analysis tools for the R statistical system to help facilitate collaboration when analyzing data from Duke Univeristy Hospital.
 
 ### Disclaimer
 This package is not officially affiliated with Duke University Hospital. The author assumes no responsibility or liability for the use of the package.
 
-### Installation
+## Installation
 
 If not installed, install `devtools` package.
 ```r
@@ -20,8 +21,8 @@ devtools::install_github("danloe/dukeR")
 ```
 Done.
 
-### Usage
-#### Analysing ecg .xml files
+## Usage
+### Analysing ecg .xml files
 Below follows an example of how to read xml files from a folder and merge them to a dataframe, which if necessary can be exported to a .csv or .xslx file.
 
 Load the package.
