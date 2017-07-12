@@ -17,7 +17,7 @@ install.packages("devtools")
 ```
 Continue on to install `dukeR`
 ```r
-devtools::install_github("danloe/dukeR")
+devtools::install_github("dloewe/dukeR")
 ```
 Done.
 
