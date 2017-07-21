@@ -1,4 +1,4 @@
-<span class="label label-primary">dukeR</span> <span class="label label-success">v 0.1.0</span>
+<span class="label label-primary">dukeR</span> <span class="label label-success">0.1.0</span>
 
 dukeR
 =====
